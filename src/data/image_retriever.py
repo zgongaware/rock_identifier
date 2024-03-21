@@ -93,6 +93,8 @@ class ImageRetriever(object):
 
 
 if __name__ == "__main__":
-    ImageRetriever("basalt", 50).retrieve_image_library()
-    ImageRetriever("schist", 50).retrieve_image_library()
-    ImageRetriever("limestone", 50).retrieve_image_library()
+    ImageRetriever("pyrite", 50).retrieve_image_library()
+    ImageRetriever("obsidian", 50).retrieve_image_library()
+    # ImageRetriever("basalt", 50).retrieve_image_library()
+    # ImageRetriever("schist", 50).retrieve_image_library()
+    # ImageRetriever("limestone", 50).retrieve_image_library()
